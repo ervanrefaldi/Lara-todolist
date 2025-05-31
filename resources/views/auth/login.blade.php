@@ -16,13 +16,11 @@
                             @endif
 
                             <div class="text-center mb-4">
-                                <h2 class="todo fw-bold mb-4">To-Do-List</h2>
+                                <h2 class="todo fw-bold mb-4 text-primary">To-Do-List</h2>
                                 <p class="text-muted">Masuk ke akun Anda</p>
                             </div>
 
-
                             <form method="POST" action="{{ route('login') }}">
-
                                 @csrf
 
                                 <div class="mb-3">
@@ -58,7 +56,7 @@
                                     @enderror
                                 </div>
 
-                                <button type="submit" class="btn btn-purple w-100 mb-3 position-relative overflow-hidden">
+                                <button type="submit" class="btn btn-primary w-100 mb-3 position-relative overflow-hidden">
                                     <span class="d-flex align-items-center justify-content-center">
                                         Masuk
                                         <i class="ms-2">➜</i>
@@ -66,8 +64,7 @@
                                 </button>
 
                                 <div class="text-center">
-
-                                    <a href="{{ route('register') }}" class="link-purple">
+                                    <a href="{{ route('register') }}" class="text-primary">
                                         Belum Punya Akun? Daftar Sekarang
                                     </a>
                                 </div>
@@ -76,26 +73,26 @@
                                     <div class="row g-4">
                                         <div class="col-6">
                                             <div class="d-flex align-items-center">
-                                                <div class="feature-icon me-2"><i class="bi bi-check-circle"></i></div>
-                                                <span class="small text-muted">Task Management</span>
+                                                <div class="feature-icon me-2"><i class="bi bi-check-circle text-primary"></i></div>
+                                                <span class="small text-primary">Task Management</span>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="d-flex align-items-center">
-                                                <div class="feature-icon me-2"><i class="bi bi-check-circle"></i></div>
-                                                <span class="small text-muted">Progress Tracking</span>
+                                                <div class="feature-icon me-2"><i class="bi bi-check-circle text-primary"></i></div>
+                                                <span class="small text-primary">Progress Tracking</span>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="d-flex align-items-center">
-                                                <div class="feature-icon me-2"><i class="bi bi-check-circle"></i></div>
-                                                <span class="small text-muted">Team Collaboration</span>
+                                                <div class="feature-icon me-2"><i class="bi bi-check-circle text-primary"></i></div>
+                                                <span class="small text-primary">Team Collaboration</span>
                                             </div>
                                         </div>
                                         <div class="col-6">
                                             <div class="d-flex align-items-center">
-                                                <div class="feature-icon me-2"><i class="bi bi-check-circle"></i></div>
-                                                <span class="small text-muted">Priority Settings</span>
+                                                <div class="feature-icon me-2"><i class="bi bi-check-circle text-primary"></i></div>
+                                                <span class="small text-primary">Priority Settings</span>
                                             </div>
                                         </div>
                                     </div>
